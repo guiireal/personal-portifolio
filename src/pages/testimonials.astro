@@ -2,7 +2,7 @@
 import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
 
-import testmonials from '../collections/testmonials.json';
+import testimonials from '../collections/testimonials.json';
 import Card from "../components/card.astro";
 ---
 
@@ -14,12 +14,12 @@ import Card from "../components/card.astro";
     />
 
     <div class="z-50 flex flex-col items-stretch w-full gap-5 my-8">
-      {testmonials.map((testmonial) => (
+      {testimonials.map((testimonial) => (
         <Card
-          title={testmonial.title}
-          description={testmonial.description}
-          link={testmonial.link}
-          footer={testmonial.footer}
+          title={testimonial.title}
+          description={testimonial.description}
+          link={testimonial.link}
+          footer={testimonial.footer}
         />
       ))}
     </div>
