@@ -1,5 +1,5 @@
 ---
-const {title, description, footer, url} = Astro.props;
+const {title, description, footer, link} = Astro.props;
 ---
 <div
   class="relative border border-transparent border-dashed cursor-pointer p-7 group rounded-2xl"
@@ -9,7 +9,8 @@ const {title, description, footer, url} = Astro.props;
   <div class="relative z-30 duration-300 ease-out group-hover:-translate-x-1 group-hover:-translate-y-1">
     <h2 class="flex items-center mb-3">
       <a
-        href={url}
+        href={link ? link : "#"}
+        target={link ? "_blank" : "_self"}
         class="text-base font-bold leading-tight tracking-tight sm:text-lg dark:text-neutral-100"
       >
         {title}
