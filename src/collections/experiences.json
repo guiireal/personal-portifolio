@@ -1,23 +1,37 @@
 [
-	{
-		"dates": "June 2018 · Present",
-		"role": "Front-end Engineer",
-		"company": "Full Truck Alliance",
-		"description": "Responsible for customer service and CRM system front-end development.",
-		"logo": "/assets/images/experiences/fta.ico"
-	},
-	{
-		"dates": "July 2015 · June 2018",
-		"role": "Front-end Engineer",
-		"company": "YOHO!",
-		"description": "Responsible for mobile front-end development of e-commerce platform.",
-		"logo": "/assets/images/experiences/yoho.ico"
-	},
-	{
-		"dates": "September 2014 · July 2015 ",
-		"role": "Node.JS Developer",
-		"company": "WuLian",
-		"description": "Intern, involved in the development of Internet of Things cloud systems.",
-		"logo": "/assets/images/experiences/wulian.ico"
-	}
+  {
+    "dates": "Março 2023 · Atual",
+    "role": "Tech Lead",
+    "company": "Crescer Soluções em TI",
+    "description": "Planejar, coordenar e executar projetos de desenvolvimento de sistemas;<br/><br/>Controlar, monitorar e orientar a equipe interna ou externa no que tange os projetos de desenvolvimento de sistemas desktop/web/mobile; <br/><br/>Apoiar a gerência no planejamento de sistemas subsidiando com informações técnicas para a tomada de decisão;<br/><br/>Planejar e coordenar o desenvolvimento de novos produtos de software. Planejar arquitetura dos novos sistemas para a organização e para os clientes;<br/><br/>Elaborar solicitações de propostas para novos projetos;<br/><br/>Documentar e confeccionar processos internos. Realizar o meio de campo entre o time de desenvolvimento e os clientes.",
+    "logo": "/assets/images/experiences/crescer.webp"
+  },
+  {
+    "dates": "2019 · Março 2023",
+    "role": "Engenheiro de Software",
+    "company": "Crescer Soluções em TI",
+    "description": "Atuei como desenvolvedor sênior, realizando as seguintes atividades:<br/><br/>Gestão de projetos de desenvolvimento, análise de sistemas e dados, desde a definição do escopo, requisitos, arquitetura, tecnologias, ciclo de vida e delegação de tarefas;<br/><br/>Replicação de conhecimento técnico e metodológico para desenvolvedores mais novos, abrangendo front end, back end, banco de dados, boas práticas (SOLID), e métodos ágeis (Scrum e XP);<br/><br/>Desenvolvimento hands-on de soluções web, móveis e desktop, utilizando diversas linguagens, frameworks e ferramentas;<br/><br/>Realização de code review;<br/><br/>Gestão de projetos de migração de bancos de dados SQL e NoSQL;<br/><br/>Construção de relatórios de business intelligence.",
+    "logo": "/assets/images/experiences/crescer.webp"
+  },
+  {
+    "dates": "2017 · 2019",
+    "role": "Desenvolvedor Fullstack",
+    "company": "Crescer Informática",
+    "description": "Desenvolvimento front-end de SPA's, portais, sites, portfólio, dentre outros (HTML / CSS / Javascript / JQuery / ReactJS); <br/><br/>Desenvolvimento backend em Javascript (Node.js) e PHP (Laravel / Lumen / Slim Framework); <br/><br/>Integração entre sistemas (REST e SOAP); <br/><br/>Migração de dados (SQL Server / MySQL / Oracle / PostgreSQL / Firebird / MongoDB / Textos / JSON / XML / Planilhas / Microsoft Access);<br/><br/>Desenvolvimento de painéis para Business Inteligence (Power BI / Libs Open Source);<br/><br/>Otimização e Performance em banco de dados (MySQL / SQL Server);<br/><br/>Desenvolvimento de rotinas em bancos de dados (Procedures / Triggers / Functions) (MySQL / SQL Server).",
+    "logo": "/assets/images/experiences/crescer.webp"
+  },
+  {
+    "dates": "2016 · 2017",
+    "role": "Analista de Suporte",
+    "company": "Crescer Informática",
+    "description": "Auxiliar o supervisor responsável em: Instalar softwares diversos;<br/>Identificar erros no sistema;<br/>Elaboração de relatórios através de ferramentas e softwares;<br/>Analisar defeitos em softwares.<br/>",
+    "logo": "/assets/images/experiences/crescer.webp"
+  },
+  {
+    "dates": "2016 · 2017",
+    "role": "Desenvolvedor Android",
+    "company": "Mobile Design Apps",
+    "description": "Desenvolvimento de aplicações mobile com Java e Android Studio.",
+    "logo": "/assets/images/experiences/mobile-design.webp"
+  }
 ]

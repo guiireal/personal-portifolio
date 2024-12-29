@@ -1,38 +1,40 @@
 [
 	{
-		"name": "TempMail.Best",
-		"description": "Best Temporary Email.",
-		"image": "/assets/images/projects/tempmail.best.png",
-		"url": "https://tempmail.best"
+		"name": "ZIG",
+		"description": "Plataforma SAAS de análise e gestão de dados para escolas de todos os níveis e faculdades.",
+		"image": "/assets/images/projects/zig.png"
 	},
 	{
-		"name": "DNS.Surf",
-		"description": "Querying DNS Resolution Results in Different Regions Worldwide.",
-		"image": "/assets/images/projects/dns.surf.png",
-		"url": "https://dns.surf"
+		"name": "Spider X API",
+		"description": "Portal com diversas API's de downloads de mídia, inteligência artificial e outros.",
+		"image": "/assets/images/projects/spider-x-api.png",
+		"url": "https://api.spiderx.com.br"
 	},
 	{
-		"name": "HTML.ZONE",
-		"description": "Web Toolbox.",
-		"image": "/assets/images/projects/html.zone.png",
-		"url": "https://html.zone"
+		"name": "Spider X",
+		"description": "Bot completo de WhatsApp com mais de 300 funcionalidades, desde fazer figurinhas, tocar músicas até conversar com as IAs de texto e imagem.",
+		"image": "/assets/images/projects/spider-x.png",
+		"url": "https://spiderx.com.br"
 	},
-	{
-		"name": "Sink",
-		"description": "A Simple / Speedy / Secure Link Shortener with Analytics.",
-		"image": "/assets/images/projects/sink.cool.png",
-		"url": "https://sink.cool"
-	},
-	{
-		"name": "BroadcastChannel",
-		"description": "Turn your Telegram Channel into a MicroBlog.",
-		"image": "/assets/images/projects/broadcast-channel.png",
-		"url": "https://github.com/ccbikai/BroadcastChannel"
-	},
-	{
-		"name": "L(O*62).ONG",
-		"description": "Make your URL looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooonger",
-		"image": "/assets/images/projects/long.png",
-		"url": "https://loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo.ong"
-	}
+  {
+    "name": "APIFY",
+    "description": "Plataforma de divulgação de APIs.",
+    "image": "/assets/images/projects/apify.png",
+    "url": "https://apify.spiderx.com.br"
+  },
+  {
+    "name": "e-Teacher",
+    "description": "Plataforma completa de lançamento de notas, faltas e diário de classe.",
+    "image": "/assets/images/projects/e-teacher.png"
+  },
+  {
+    "name": "Sistema de Associações e Sociedades",
+    "description": "Sistema completo de gestão de associações e sociedades, com módulos de secretaria, financeiro integrado com a Omie, votação, conteúdo e muito mais.",
+    "image": "/assets/images/projects/sistema-associacoes-sociedades.png"
+  },
+  {
+    "name": "Portal do aluno para instituições de ensino",
+    "description": "Portal do aluno para instituições de ensino onde o aluno pode obter o seu boletim, boletos para serem pagos, etc. Além disso, com integração com diferentes sistemas.",
+    "image": "/assets/images/projects/portal-aluno.png"
+  }
 ]

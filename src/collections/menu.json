@@ -3,16 +3,17 @@
 		"name": "Home",
 		"url": "/"
 	},
+
+  {
+    "name": "Sobre mim",
+    "url": "/about"
+  },
 	{
-		"name": "Posts",
-		"url": "/posts"
-	},
-	{
-		"name": "Projects",
+		"name": "Projetos",
 		"url": "/projects"
 	},
-	{
-		"name": "About",
-		"url": "/about"
-	}
+  {
+    "name": "Depoimentos",
+    "url": "/testmonials"
+  }
 ]

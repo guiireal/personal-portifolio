@@ -1,0 +1,27 @@
+---
+import PageHeading from "../components/page-heading.astro";
+import Layout from "../layouts/main.astro";
+
+import testmonials from '../collections/testmonials.json';
+import Card from "../components/card.astro";
+---
+
+<Layout title="Depoimentos">
+  <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+    <PageHeading
+      title="Depoimentos"
+      description="Depoimentos de pessoas que trabalharam ou estudaram comigo."
+    />
+
+    <div class="z-50 flex flex-col items-stretch w-full gap-5 my-8">
+      {testmonials.map((testmonial) => (
+        <Card
+          title={testmonial.title}
+          description={testmonial.description}
+          link={testmonial.link}
+          footer={testmonial.footer}
+        />
+      ))}
+    </div>
+  </section>
+</Layout>
