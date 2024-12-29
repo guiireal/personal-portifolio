@@ -1,6 +1,7 @@
 ---
 const {title, description, footer, link} = Astro.props;
 ---
+
 <div
   class="relative border border-transparent border-dashed cursor-pointer p-7 group rounded-2xl"
   onclick={link ? `location.href = '${link}'` : null}
