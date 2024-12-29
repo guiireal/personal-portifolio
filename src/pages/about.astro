@@ -1,8 +1,10 @@
 ---
 import experiences from "../collections/experiences.json";
+import educations from "../collections/educations.json";
 import AboutExperience from "../components/about-experience.astro";
 import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
+import Card from "../components/card.astro";
 ---
 
 <Layout title="Sobre mim">
@@ -54,6 +56,24 @@ import Layout from "../layouts/main.astro";
             </div>
           )
         })
+      }
+    </div>
+
+    <h2
+      class="mb-2 text-2xl font-bold lg:mt-5 sm:mt-6 dark:text-neutral-200"
+    >
+      Educação
+    </h2>
+
+    <div class="px-5">
+      {
+        educations.map((education) => (
+            <Card
+              title={education.title}
+              description={education.description}
+              footer={education.footer}
+            />
+          ))
       }
     </div>
   </section>
