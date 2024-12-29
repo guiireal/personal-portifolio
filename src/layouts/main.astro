@@ -10,9 +10,15 @@ const { title } = Astro.props;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Guilherme França" />
+    <meta name="description" content="Meu portifólio pessoal" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Astro, PHP, Laravel, Portifolio, SQL" />
+    <meta property="og:title" content="Guilherme França" />
+    <meta property="og:description" content="Meu portifólio pessoal" />
+    <meta property="og:image" content="https://guiireal.com/assets/images/gui.png" />
+    <meta property="og:url" content="https://guiireal.com" />
     <title>{title}</title>
 
-    <!-- Used to add dark mode right away, adding here prevents any flicker -->
     <script is:inline>
       if (typeof Storage !== 'undefined') {
         if (
