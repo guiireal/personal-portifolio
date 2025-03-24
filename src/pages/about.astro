@@ -1,10 +1,10 @@
 ---
-import experiences from "../collections/experiences.json";
 import educations from "../collections/educations.json";
+import experiences from "../collections/experiences.json";
 import AboutExperience from "../components/about-experience.astro";
+import Card from "../components/card.astro";
 import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
-import Card from "../components/card.astro";
 ---
 
 <Layout title="Sobre mim">
@@ -13,13 +13,17 @@ import Card from "../components/card.astro";
       title="Sobre mim"
       description={`
         Olá! Me chamo Guilherme França, moro em SP
-        e atualmente trabalho como tech lead e engenheiro de software
-        desenvolvedor, em uma empresa de desenvolvimento de softwares de
+        e atualmente trabalho como tech lead e engenheiro de software em uma empresa de desenvolvimento de softwares de
         pequeno porte focada no nicho acadêmico (escolas, bibliotecas e cursos
         livres).
-      `}/>
+      `}
+    />
 
-    <img src="/assets/images/about.webp" class="relative z-30 w-full my-10 rounded-xl" alt="Sobre" />
+    <img
+      src="/assets/images/about.webp"
+      class="relative z-30 w-full my-10 rounded-xl"
+      alt="Sobre"
+    />
 
     <PageHeading
       description={`
@@ -27,8 +31,9 @@ import Card from "../components/card.astro";
         atuação é no desenvolvimento de aplicações web/mobile, integração
         entre sistemas e desenvolvimento de bots. Também tenho experiência em
         análise de sistemas e gestão de projetos.
-      `}/>
-    
+      `}
+    />
+
     <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200 mt-5">Bio</h2>
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
@@ -54,26 +59,24 @@ import Card from "../components/card.astro";
                 logo={experience.logo}
               />
             </div>
-          )
+          );
         })
       }
     </div>
 
-    <h2
-      class="mb-2 text-2xl font-bold lg:mt-5 sm:mt-6 dark:text-neutral-200"
-    >
+    <h2 class="mb-2 text-2xl font-bold lg:mt-5 sm:mt-6 dark:text-neutral-200">
       Educação
     </h2>
 
     <div class="z-50 flex flex-col items-stretch w-full gap-5 my-8">
       {
         educations.map((education) => (
-            <Card
-              title={education.title}
-              description={education.description}
-              footer={education.footer}
-            />
-          ))
+          <Card
+            title={education.title}
+            description={education.description}
+            footer={education.footer}
+          />
+        ))
       }
     </div>
   </section>
