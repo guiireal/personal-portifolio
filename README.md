@@ -2,5 +2,5 @@
 
 ## Tecnologias envolvidas
 
-- Node.js 20.18
+- Node.js 22.x
 - Astro 4.8
