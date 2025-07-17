@@ -1,26 +1,25 @@
 [
-	{
-		"name": "ZIG",
-		"description": "Plataforma SAAS de análise e gestão de dados para escolas de todos os níveis e faculdades.",
-		"image": "/assets/images/projects/zig.png"
-	},
-	{
-		"name": "Spider X API",
-		"description": "Portal com diversas API's de downloads de mídia, inteligência artificial e outros.",
-		"image": "/assets/images/projects/spider-x-api.png",
-		"url": "https://api.spiderx.com.br"
-	},
-	{
-		"name": "Spider X",
-		"description": "Bot completo de WhatsApp com mais de 300 funcionalidades, desde fazer figurinhas, tocar músicas até conversar com as IAs de texto e imagem.",
-		"image": "/assets/images/projects/spider-x.png",
-		"url": "https://spiderx.com.br"
-	},
+  {
+    "name": "ZIG",
+    "description": "Plataforma SAAS de análise e gestão de dados para escolas de todos os níveis e faculdades.",
+    "image": "/assets/images/projects/zig.png"
+  },
+  {
+    "name": "Spider X API",
+    "description": "Portal com diversas API's de downloads de mídia, inteligência artificial e outros.",
+    "image": "/assets/images/projects/spider-x-api.png",
+    "url": "https://api.spiderx.com.br"
+  },
+  {
+    "name": "Spider X",
+    "description": "Bot completo de WhatsApp com mais de 300 funcionalidades, desde fazer figurinhas, tocar músicas até conversar com as IAs de texto e imagem.",
+    "image": "/assets/images/projects/spider-x.png",
+    "url": "https://spiderx.com.br"
+  },
   {
     "name": "APIFY",
     "description": "Plataforma de divulgação de APIs.",
-    "image": "/assets/images/projects/apify.png",
-    "url": "https://apify.spiderx.com.br"
+    "image": "/assets/images/projects/apify.png"
   },
   {
     "name": "e-Teacher",
