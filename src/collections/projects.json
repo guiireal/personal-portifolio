@@ -1,20 +1,29 @@
 [
   {
+    "name": "APIFY",
+    "description": "Plataforma de divulgação de APIs.",
+    "image": "/assets/images/projects/apify.png"
+  },
+  {
     "name": "Deobfuscator",
     "description": "Uma plataforma para desofuscar códigos Javascript.",
     "image": "/assets/images/projects/deobfuscator.png",
     "url": "https://deobfuscator.devgui.dev"
   },
   {
-    "name": "ZIG",
-    "description": "Plataforma SAAS de análise e gestão de dados para escolas de todos os níveis e faculdades.",
-    "image": "/assets/images/projects/zig.png"
+    "name": "e-Teacher",
+    "description": "Plataforma completa de lançamento de notas, faltas e diário de classe.",
+    "image": "/assets/images/projects/e-teacher.png"
   },
   {
-    "name": "Spider X API",
-    "description": "Portal com diversas API's de downloads de mídia, inteligência artificial e outros.",
-    "image": "/assets/images/projects/spider-x-api.png",
-    "url": "https://api.spiderx.com.br"
+    "name": "Portal do aluno para instituições de ensino",
+    "description": "Portal do aluno para instituições de ensino onde o aluno pode obter o seu boletim, boletos para serem pagos, etc. Além disso, com integração com diferentes sistemas.",
+    "image": "/assets/images/projects/portal-aluno.png"
+  },
+  {
+    "name": "Sistema de Associações e Sociedades",
+    "description": "Sistema completo de gestão de associações e sociedades, com módulos de secretaria, financeiro integrado com a Omie, votação, conteúdo e muito mais.",
+    "image": "/assets/images/projects/sistema-associacoes-sociedades.png"
   },
   {
     "name": "Spider X",
@@ -23,23 +32,14 @@
     "url": "https://spiderx.com.br"
   },
   {
-    "name": "APIFY",
-    "description": "Plataforma de divulgação de APIs.",
-    "image": "/assets/images/projects/apify.png"
+    "name": "Spider X API",
+    "description": "Portal com diversas API's de downloads de mídia, inteligência artificial e outros.",
+    "image": "/assets/images/projects/spider-x-api.png",
+    "url": "https://api.spiderx.com.br"
   },
   {
-    "name": "e-Teacher",
-    "description": "Plataforma completa de lançamento de notas, faltas e diário de classe.",
-    "image": "/assets/images/projects/e-teacher.png"
-  },
-  {
-    "name": "Sistema de Associações e Sociedades",
-    "description": "Sistema completo de gestão de associações e sociedades, com módulos de secretaria, financeiro integrado com a Omie, votação, conteúdo e muito mais.",
-    "image": "/assets/images/projects/sistema-associacoes-sociedades.png"
-  },
-  {
-    "name": "Portal do aluno para instituições de ensino",
-    "description": "Portal do aluno para instituições de ensino onde o aluno pode obter o seu boletim, boletos para serem pagos, etc. Além disso, com integração com diferentes sistemas.",
-    "image": "/assets/images/projects/portal-aluno.png"
+    "name": "ZIG",
+    "description": "Plataforma SAAS de análise e gestão de dados para escolas de todos os níveis e faculdades.",
+    "image": "/assets/images/projects/zig.png"
   }
 ]
