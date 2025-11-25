@@ -1,5 +1,11 @@
 [
   {
+    "name": "Deobfuscator",
+    "description": "Uma plataforma para desofuscar códigos Javascript.",
+    "image": "/assets/images/projects/deobfuscator.png",
+    "url": "https://deobfuscator.devgui.dev"
+  },
+  {
     "name": "ZIG",
     "description": "Plataforma SAAS de análise e gestão de dados para escolas de todos os níveis e faculdades.",
     "image": "/assets/images/projects/zig.png"
