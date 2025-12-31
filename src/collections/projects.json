@@ -20,8 +20,8 @@
     "description": "Ferramenta de atalhos personalizados para URLs.",
     "image": "/assets/images/projects/linker.png",
     "url": "https://linker.devgui.dev"
-  }
-	{
+  },
+  {
     "name": "Portal do aluno para instituições de ensino",
     "description": "Portal do aluno para instituições de ensino onde o aluno pode obter o seu boletim, boletos para serem pagos, etc. Além disso, com integração com diferentes sistemas.",
     "image": "/assets/images/projects/portal-aluno.png"
