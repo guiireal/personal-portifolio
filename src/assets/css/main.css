@@ -30,6 +30,15 @@ html.dark {
     color-scheme: dark;
 }
 
+.menu-item.text-neutral-900,
+.menu-item.dark\\:text-white {
+  color: #171717 !important;
+}
+
+html.dark .menu-item.dark\\:text-white {
+  color: #fafafa !important;
+}
+
 .horizon .setting {
   animation: 1s ease 0s 1 setting;
 }
