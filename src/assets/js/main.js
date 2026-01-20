@@ -138,6 +138,14 @@ window.applyMenuItemClasses = () => {
   };
 
   const basePath = normalizePath(document.body?.dataset?.base || "/");
+  const getPathFromHref = (href) => {
+    if (!href) return "/";
+    try {
+      return new URL(href, window.location.origin).pathname;
+    } catch {
+      return href;
+    }
+  };
   const stripBase = (path) => {
     const normalized = normalizePath(path);
     if (basePath !== "/" && normalized.startsWith(basePath)) {
@@ -150,7 +158,9 @@ window.applyMenuItemClasses = () => {
   const currentPath = stripBase(window.location.pathname);
   const menuItems = document.querySelectorAll("#menu a");
   for (let i = 0; i < menuItems.length; i++) {
-    const itemPath = stripBase(menuItems[i].pathname);
+    const itemPath = stripBase(
+      getPathFromHref(menuItems[i].getAttribute("href"))
+    );
     if (itemPath === currentPath) {
       menuItems[i].classList.add("text-neutral-900", "dark:text-white");
     }
