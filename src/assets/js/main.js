@@ -137,10 +137,20 @@ window.applyMenuItemClasses = () => {
     return normalized;
   };
 
-  const currentPath = normalizePath(window.location.pathname);
+  const basePath = normalizePath(document.body?.dataset?.base || "/");
+  const stripBase = (path) => {
+    const normalized = normalizePath(path);
+    if (basePath !== "/" && normalized.startsWith(basePath)) {
+      const stripped = normalized.slice(basePath.length) || "/";
+      return normalizePath(stripped);
+    }
+    return normalized;
+  };
+
+  const currentPath = stripBase(window.location.pathname);
   const menuItems = document.querySelectorAll("#menu a");
   for (let i = 0; i < menuItems.length; i++) {
-    const itemPath = normalizePath(menuItems[i].pathname);
+    const itemPath = stripBase(menuItems[i].pathname);
     if (itemPath === currentPath) {
       menuItems[i].classList.add("text-neutral-900", "dark:text-white");
     }
