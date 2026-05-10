@@ -1,11 +1,5 @@
 [
   {
-    "name": "RemoveBG",
-    "description": "Ferramenta para remover o fundo de imagens em poucos segundos.",
-    "image": "/assets/images/projects/removebg.png",
-    "url": "https://removebg.devgui.dev"
-  },
-  {
     "name": "APIFY",
     "description": "Plataforma de divulgação de APIs.",
     "image": "/assets/images/projects/apify.png"
@@ -23,6 +17,12 @@
     "url": "https://linker.devgui.dev"
   },
   {
+    "name": "RemoveBG",
+    "description": "Ferramenta para remover o fundo de imagens em poucos segundos.",
+    "image": "/assets/images/projects/removebg.png",
+    "url": "https://removebg.devgui.dev"
+  },
+  {
     "name": "Spider X",
     "description": "Bot completo de WhatsApp com mais de 300 funcionalidades, desde fazer figurinhas, tocar músicas até conversar com as IAs de texto e imagem.",
     "image": "/assets/images/projects/spider-x.png",
@@ -33,5 +33,11 @@
     "description": "Portal com diversas API's de downloads de mídia, inteligência artificial e outros.",
     "image": "/assets/images/projects/spider-x-api.png",
     "url": "https://api.spiderx.com.br"
+  },
+  {
+    "name": "Takeshi Bot",
+    "description": "Bot open source para WhatsApp com base multifuncional e comandos prontos.",
+    "image": "/assets/images/projects/takeshi-bot.png",
+    "url": "https://github.com/guiireal/takeshi-bot"
   }
 ]
