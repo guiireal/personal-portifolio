@@ -1,5 +1,11 @@
 [
   {
+    "name": "RemoveBG",
+    "description": "Ferramenta para remover o fundo de imagens em poucos segundos.",
+    "image": "/assets/images/projects/removebg.png",
+    "url": "https://removebg.devgui.dev"
+  },
+  {
     "name": "APIFY",
     "description": "Plataforma de divulgação de APIs.",
     "image": "/assets/images/projects/apify.png"
