@@ -39,5 +39,11 @@
     "description": "Bot open source para WhatsApp com base multifuncional e comandos prontos.",
     "image": "/assets/images/projects/takeshi-bot.png",
     "url": "https://github.com/guiireal/takeshi-bot"
+  },
+  {
+    "name": "Video Downloader",
+    "description": "O Video Downloader é a ferramenta ideal para você salvar seus vídeos favoritos de redes sociais diretamente no seu celular.",
+    "image": "/assets/images/projects/video-downloader.png",
+    "url": "https://videodownloader.devgui.dev"
   }
 ]
