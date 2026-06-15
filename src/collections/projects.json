@@ -17,6 +17,12 @@
     "url": "https://linker.devgui.dev"
   },
   {
+    "name": "Lo-Fi",
+    "description": "Plataforma para ouvir músicas Lo-Fi online para foco, estudo e relaxamento.",
+    "image": "/assets/images/projects/lo-fi.png",
+    "url": "https://lofi.devgui.dev"
+  },
+  {
     "name": "RemoveBG",
     "description": "Ferramenta para remover o fundo de imagens em poucos segundos.",
     "image": "/assets/images/projects/removebg.png",
