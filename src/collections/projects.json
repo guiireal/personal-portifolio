@@ -36,6 +36,12 @@
     "url": "https://api.spiderx.com.br"
   },
   {
+    "name": "Status Saver",
+    "description": "Aplicativo para salvar fotos e vídeos dos status do WhatsApp diretamente na galeria.",
+    "image": "/assets/images/projects/status-saver.png",
+    "url": "https://statussaverapp.devgui.dev/"
+  },
+  {
     "name": "Takeshi Bot",
     "description": "Bot open source para WhatsApp com base multifuncional e comandos prontos.",
     "image": "/assets/images/projects/takeshi-bot.png",
