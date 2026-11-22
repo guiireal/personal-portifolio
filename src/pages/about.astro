@@ -12,7 +12,7 @@ import Layout from "../layouts/main.astro";
     <PageHeading
       title="Sobre mim"
       description={`
-        Sou Guilherme França, Tech Lead, Software Architect e Builder em São Paulo. Transformo desafios complexos de negócio em plataformas SaaS escaláveis, ecossistemas de dados e soluções com Inteligência Artificial.
+        Opa! Me chamo Guilherme França. Sou programador, lider técnico e empreendedor aqui em São Paulo. Transformo desafios complexos de negócio em plataformas SaaS escaláveis, ecossistemas de dados e soluções com inteligência artificial.
       `}
     />
 
@@ -23,7 +23,10 @@ import Layout from "../layouts/main.astro";
     />
 
     <p class="text-sm leading-6 text-neutral-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg">
-      Com mais de 10 anos de experiência em tecnologia, evoluí da engenharia de base até a coordenação e liderança técnica de times de desenvolvimento. Além da atuação corporativa liderando arquitetura e engenharia de dados, sou criador de produtos próprios como o{" "}
+      Com mais de 10 anos de experiência em tecnologia, evoluí da engenharia de
+      base até a coordenação e liderança técnica de times de desenvolvimento.
+      Além da atuação corporativa liderando arquitetura e engenharia de dados,
+      sou criador de produtos próprios como o{" "}
       <a
         href="https://github.com/guiireal/takeshi-bot"
         target="_blank"
@@ -40,30 +43,27 @@ import Layout from "../layouts/main.astro";
         class="font-medium text-blue-600 dark:text-blue-400 hover:underline"
       >
         Spider API
-      </a>.
+      </a>
+      .
     </p>
 
-    <h2
-      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
-    >
+    <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">
       Experiência profissional
     </h2>
     <div class="px-5 py-10">
-      {
-        experiences.map((experience) => {
-          return (
-            <div class="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
-              <AboutExperience
-                dates={experience.dates}
-                role={experience.role}
-                company={experience.company}
-                description={experience.description}
-                logo={experience.logo}
-              />
-            </div>
-          );
-        })
-      }
+      {experiences.map((experience) => {
+        return (
+          <div class="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
+            <AboutExperience
+              dates={experience.dates}
+              role={experience.role}
+              company={experience.company}
+              description={experience.description}
+              logo={experience.logo}
+            />
+          </div>
+        );
+      })}
     </div>
 
     <h2 class="mb-2 text-2xl font-bold lg:mt-5 sm:mt-6 dark:text-neutral-200">
@@ -71,15 +71,13 @@ import Layout from "../layouts/main.astro";
     </h2>
 
     <div class="z-50 flex flex-col items-stretch w-full gap-5 my-8">
-      {
-        educations.map((education) => (
-          <Card
-            title={education.title}
-            description={education.description}
-            footer={education.footer}
-          />
-        ))
-      }
+      {educations.map((education) => (
+        <Card
+          title={education.title}
+          description={education.description}
+          footer={education.footer}
+        />
+      ))}
     </div>
   </section>
 </Layout>
